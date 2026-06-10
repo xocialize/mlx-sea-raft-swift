@@ -14,8 +14,7 @@ itself cosine-1.0 locked vs PyTorch). The `iters` knob trades quality for speed.
 | `.spring` (default) | `mlx-community/SEA-RAFT-Tartan-C-T-TSKH-spring540x960-S-mlx` | full schedule, best accuracy |
 | `.tartan` | `mlx-community/SEA-RAFT-Tartan480x640-S-mlx` | TartanAir/CC-BY-only provenance chain |
 
-License confirmation pending at [princeton-vl/SEA-RAFT#31](https://github.com/princeton-vl/SEA-RAFT/issues/31)
-(linked from the weight cards).
+Checkpoint license **confirmed BSD-3 by the authors** in [princeton-vl/SEA-RAFT#31](https://github.com/princeton-vl/SEA-RAFT/issues/31#issuecomment-4674222973) (linked from the weight cards).
 
 ## Usage
 
