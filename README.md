@@ -29,4 +29,9 @@ let resp = try await engine.run(OpticalFlowRequest(image0: frameA, image1: frame
 let (u, v) = resp.flow[x, y]   // pixel displacement at (x, y)
 ```
 
+## Consuming it
+
+Public + version-tagged on github.com/xocialize. Add by tagged URL:
+`.package(url: "https://github.com/xocialize/mlx-sea-raft-swift", from: "0.1.0")`, then import `MLXSEARAFT` (the conformant `opticalFlow` package). Builds standalone — its engine contract (`MLXToolKit`) and model-core dependencies are tagged-URL net deps, no local checkouts.
+
 Requirements: macOS 26+ (Apple Silicon, Metal GPU). Port MIT; weights BSD-3 (Princeton VL Lab).
